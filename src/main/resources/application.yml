@@ -1,0 +1,27 @@
+spring:
+  jpa:
+    hibernate.dialect: org.hibernate.spatial.dialect.mysql.MySQL8SpatialDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        default_batch_fetch_size: 1000
+        show_sql: true
+        format_sql: true
+    open-in-view: false
+    show-sql: true
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://34.64.184.142:31508/test
+    username: root
+    password: root
+  flyway:
+    encoding: UTF8
+    enabled: true
+    baseline-on-migrate: true
+    user: root
+    password: 1234
+
+server:
+  port: 8099
