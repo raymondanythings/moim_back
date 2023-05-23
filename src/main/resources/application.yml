@@ -13,7 +13,7 @@ spring:
     show-sql: true
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://34.64.184.142:31508/test
+    url: jdbc:mariadb://svc.sel4.cloudtype.app:31508/test
     username: root
     password: root
   flyway:
