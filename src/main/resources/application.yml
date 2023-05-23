@@ -16,12 +16,12 @@ spring:
     url: jdbc:mariadb://svc.sel4.cloudtype.app:31508/test
     username: root
     password: root
-  flyway:
-    encoding: UTF8
-    enabled: true
-    baseline-on-migrate: true
-    user: root
-    password: 1234
+#  flyway:
+#    encoding: UTF8
+#    enabled: true
+#    baseline-on-migrate: true
+#    user: root
+#    password: 1234
 
 server:
   port: 8099

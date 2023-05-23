@@ -13,15 +13,15 @@ spring:
     show-sql: true
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://34.64.184.142:31508/test
+    url: jdbc:mariadb://svc.sel4.cloudtype.app:31508/test
     username: root
     password: root
-  flyway:
-    encoding: UTF8
-    enabled: true
-    baseline-on-migrate: true
-    user: root
-    password: 1234
+#  flyway:
+#    encoding: UTF8
+#    enabled: true
+#    baseline-on-migrate: true
+#    user: root
+#    password: 1234
 
 server:
   port: 8099

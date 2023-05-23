@@ -62,8 +62,8 @@ dependencies {
     // Jwt
     implementation("com.auth0:java-jwt:3.19.3")
 
-    // Flyway
-    implementation("org.flywaydb:flyway-mysql:9.16.3")
+//    // Flyway
+//    implementation("org.flywaydb:flyway-mysql:9.16.3")
 
     // Test
     testImplementation("org.springframework.boot:spring-boot-starter-test")
